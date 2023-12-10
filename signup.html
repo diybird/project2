@@ -1,0 +1,43 @@
+<!-- signup.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css"> <!-- Link to your signup-specific stylesheet -->
+    <title>Sign Up - Dating App</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <!-- Add more navigation items as needed -->
+        </ul>
+    </nav>
+
+    <!-- Sign Up Form -->
+    <section class="signup-form">
+        <h2>Create an Account</h2>
+        <form id="signup-form">
+            <!-- Form Fields -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <!-- Script for handling form submission (signup.js) -->
+    <script src="signup.js"></script>
+</body>
+</html>
